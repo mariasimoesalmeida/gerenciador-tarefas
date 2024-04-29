@@ -16,10 +16,20 @@
             <label for="task_name"></label>
              <input type="text" name="task_name" placeholder="Nome da Tarefa">
              <button type="submit">Cadastrar</button>
+        </form>
     </div>
     <div class="separator">
     </div>
     <div class="list-tasks">
+    <ul>
+            <?php
+            if (isset($_SESSION['tasks'])) {
+                foreach ($_SESSION['tasks'] as $key => $task) {
+                    echo "<li>$task</li>";
+                }
+            }
+            ?>
+        </ul>
     </div>
     <div class="footer">
    </div>

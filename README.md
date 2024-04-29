@@ -24,7 +24,3 @@ Este é um simples gerenciador de tarefas em HTML e PHP.
 ## Desenvolvimento
 Este projeto foi desenvolvido por @MonolitoPHP.
 
-## Licença
-Este projeto é de código aberto e pode ser utilizado livremente.
-
-
